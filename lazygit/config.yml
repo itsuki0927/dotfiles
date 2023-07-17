@@ -1,0 +1,14 @@
+gui:
+  showIcons: true
+
+os:
+  edit: 'nvim' # see 'Configuring File Editing' section
+  editAtLine: '{{editor}} +{{line}} -- {{filename}}'
+  openCommand: ''
+
+git:
+  paging:
+    useConfig: false
+    pager: delta --dark --paging=never --24-bit-color=never
+    colorArg: never
+    # pager: delta --dark --paging=never

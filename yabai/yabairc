@@ -1,0 +1,22 @@
+yabai -m config layout bsp
+
+# 在平铺时变为右分割或下分割
+yabai -m config window_placement second_child
+
+# padding
+yabai -m config top_padding    12
+yabai -m config bottom_padding 12
+yabai -m config left_padding   12
+yabai -m config right_padding  12
+yabai -m config window_gap     12
+
+yabai -m config mouse_drop_action swap
+
+yabai -m config mouse_follows_focus on
+
+# yabai -m config mouse_modifier alt
+
+yabai -m config window_opacity on
+yabai -m config active_window_opacity 1.0
+yabai -m config normal_window_opacity 0.6
+
